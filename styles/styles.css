@@ -1,0 +1,214 @@
+html,
+body {
+  width: 100%; 
+  height: 100%; 
+  margin: 0; 
+  padding: 0; 
+}
+header {
+  background-color: rgb(31, 34, 53);
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 5px;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+.navbar li {
+  display: inline;
+  margin: 0 20px;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: color 0.2s; 
+}
+.navbar {
+  height: 40px;
+  padding: 5px 0;
+}
+.brand-logo img {
+  width: 100px;
+  margin-left: 20px;
+}
+.navbar a:hover {
+  color: rgb(255, 74, 87);
+}
+#home {
+  background-color: rgb(36, 38, 59);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px 66px;
+}
+.overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  padding-top: 200px;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  margin-top: -35px;
+}
+.social-icons i {
+  margin-right: 40px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border: 2px solid #ff4a57;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+}
+.home-text {
+  margin-top: 80px;
+}
+.home-text h2 {
+  font-size: 70px;
+  padding: auto;
+  margin-top: -45px;
+  font-weight: bold;
+  color: azure;
+  white-space: nowrap;
+  width: 100px;
+}
+.home-text p {
+  margin-top: -20px;
+  font-size: 25px;
+  color: #dfdfdf;
+  font: weight 100%;
+}
+
+.social-icons i:hover {
+  background-color: #ff4a57;
+}
+.home-image img {
+  width: 400px;
+  height: 500px;
+  margin-top: 60px;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 190px;
+}
+.portfolio-button {
+  border: 2px solid #ff4a57;
+  background-color: rgb(36, 38, 59);
+  border-radius: 50px;
+  white-space: nowrap;
+  padding: 18px 30px;
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: Helvetica;
+  margin: 15px;
+}
+.portfolio-button:hover {
+  background-color: #ff4a57;
+}
+.play-button {
+  border: 2px solid #ff4a57;
+  background-color: #ff4a57;
+  border-radius: 50px;
+  padding: 18px 40px;
+  margin: 15px;
+  color: aliceblue;
+  font-size: 15px;
+}
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.service-span {
+  justify-content: center;
+  display: flex;
+  color: #ff4a57;
+}
+#service {
+  background-color: rgb(31, 34, 53);
+  padding: 75px;
+  gap: 30px;
+}
+#service h2 {
+  display: flex;
+  justify-content: center;
+  color: azure;
+  font-size: 50px;
+}
+.service-para {
+  display: flex;
+  justify-content: center;
+  font-size: 19px;
+  color: #fff;
+  margin: 30px;
+  padding: 10px;
+  word-spacing: 1px;
+}
+.grid-item {
+  padding: 30px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 21px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(35, 38, 58);
+}
+
+.extra-spacing {
+  margin: 10px;
+}
+.service-texts {
+  margin: 80px;
+}
+.red-line {
+  width: 50px;
+  height: 4px;
+  background-color: #ff4a57;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.grid-item h4 {
+  color: azure;
+  text-align: left;
+  white-space: nowrap;
+}
+.grid-item i {
+  color: #ff4a57;
+  font-size: 40px;
+
+}
+.grid-item:hover {
+  background-color: #ff4a57;
+}
+.red-logo {
+  color:rgba(255, 74, 86, 0.991); 
+}
+.grid-item:hover .red-logo {
+  color: white;
+}
+.grid-item p {
+  color:azure;
+  font-weight: lighter;
+}
+.service-logo {
+  display: inline-block;
+  transition: transform 1s;
+}
+
